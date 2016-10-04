@@ -2,7 +2,7 @@ h1 {color:#595959; font-size:1.2cm;font-family:"Lucidatypewriter";}
 p1 {font-size:0.7cm;font-family:"Lucidatypewriter";color:#333333;}
 .nav-pills {font-size:0.5cm;display:flex;justify-content:center;color:#333333}
 about {font-family:"Lucidatypewriter";color:#333333}
-h1 p1 pic about {text-align: center}
+h1 p1 pic about {align: center}
 about {text-align: center}
 about {display: inline}
 pic h1 p1 about {position: relative}
