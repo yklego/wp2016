@@ -7,6 +7,6 @@ about {text-align: center}
 about {display: inline}
 pic h1 p1 about {position: relative}
 pic {width:400px;height:400px}
-a:link    {color:black; background-color:transparent; text-decoration:none}
-body {background-color:#000000;}
+a  {color:black; background-color:transparent; text-decoration:none}
+body {background-color:#f2ffe6;}
    
