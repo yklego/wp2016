@@ -1,0 +1,11 @@
+h1 {color:#595959; font-size:1.2cm;font-family:"proxima-nova";}
+p1 {font-size:0.5cm;font-family:"Lucidatypewriter";color:#333333;}
+.nav-pills {font-size:0.5cm;display:flex;justify-content:center;}
+about {font-family:"Lucidatypewriter";color:#333333}
+h1 p1 pic about {aligin: center}
+about {text-algin: center}
+about {display: inline}
+pic h1 p1 about {position: relative}
+pic {width:600px;height:220px}
+body {background-size:100% 100%;color:f4ffff}
+   
