@@ -4,6 +4,37 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="https://yklego.github.io/wp2016/app.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script>
+    function pageScroll(position) {
+        var yPos = window.pageYOffset;
+        yPos += 95;
+        if(yPos>position)
+        {
+            yPos = position;
+        }
+        window.scroll(0,yPos); // horizontal and vertical scroll increments
+        scrolldelay = setTimeout('pageScroll(\''+position+'\')',40); // scrolls every 100 milliseconds
+        if(yPos==position)
+        {
+            yPos = 0;
+            clearTimeout(scrolldelay);
+        }
+    }
+    function pageScrollUp(position) {
+        var yPos = window.pageYOffset;
+        yPos -= 95;
+        if(yPos<position)
+        {
+            yPos = position;
+        }
+        window.scroll(0,yPos); // horizontal and vertical scroll increments
+        scrolldelay = setTimeout('pageScrollUp(\''+position+'\')',40); // scrolls every 100 milliseconds
+        if(yPos==position)
+        {
+            clearTimeout(scrolldelay);
+        }
+    }
+</script>	
 </head>
 
 <body>
